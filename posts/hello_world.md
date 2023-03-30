@@ -22,4 +22,4 @@ I remembered the lecture about color and I browsed the course module and found t
 
 I copied the code to my sketch, removed the unneeded parts and only applied the changing rainbow color for my background, resulting in this:
 
-<iframe width="400" height="400" src="https://editor.p5js.org/Rivenrh/full/Ss3EpG0nM"></iframe>
+<iframe width="450" height="450" src="https://editor.p5js.org/Rivenrh/full/Ss3EpG0nM"></iframe>
