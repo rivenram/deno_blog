@@ -10,9 +10,9 @@ I created this blog for my Creative Coding class.
 
 For the 1st assignment of this class, I have to create a sketch using p5.js, a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else! 
 
-I am interested in coding with Javascript since I heard that Javascript is an easy and fast coding language. Used to write blog posts with Wix template, this time I have to create a Deno blog, a blog that utilizes interesting methods. The methods are confusing to me, but I'll learn to utilize it as I continue on.
+I am interested in coding with Javascript since I heard that Javascript is an easy and fast coding language. Used to write blog posts with Wix templates, this time I have to create a Deno blog, a blog that utilizes interesting methods. The methods are confusing to me, but I'll learn to utilize them as I continue on.
 
-Deno blog aside, p5 Javascript is interesting because how by typing codes, it can create amazing creation such as animations, interaction, and more. Personally, this first assignment is fun because it has almost no requirements.
+Deno blog aside, p5 Javascript is interesting because how by typing codes, it can create amazing creations such as animations, interaction, and more. Personally, this first assignment is fun because it has almost no requirements.
 
 I tried to create something from scratch, but starting from 0 is hard and I'm not getting any ideas, so I duplicated the example provided and expands from there. I watched the YouTube tutorial playlist provided and get the hang of the basics.
 
