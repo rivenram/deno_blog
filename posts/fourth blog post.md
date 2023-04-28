@@ -6,6 +6,8 @@ disable_html_sanitization: true
 
 #  Testing Interaction!
 
+Type something and press enter!
+
 <div id=onkeypress_input></div>
 
 <script type=module>
