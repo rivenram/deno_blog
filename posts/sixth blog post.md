@@ -12,6 +12,7 @@ Finalizing my Net Art! First of all, I should talk about 2 concepts that I didn'
 
 With that being said, I proceed to apply interaction on my star trails net art. Initially, I wanted to let people change the star trail colours on click, applying conditional logic on it. I tinkered with my code and it resulted in this:
 
+**Click and hold to change the colours!**
 <iframe width="700" height="500" src="https://editor.p5js.org/Rivenrh/full/6dS15hvzh"></iframe>
 
 I wanted the colour change to be fixed until people click on it again, but somehow the colour only changes when people hold the mouse button instead. Then I noticed that the trails also follow the colour which is pretty cool in my opinion. At least the colour change works- to some extent. I'll move on to the directional change and then I'll come back to fix this.
