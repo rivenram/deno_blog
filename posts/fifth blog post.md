@@ -1,5 +1,5 @@
 ---
-title: Fifth blog post! (2st post for assignment 2!)
+title: Fifth blog post! (2nd post for assignment 2!)
 publish_date: 2023-05-05
 disable_html_sanitization: true
 ---
