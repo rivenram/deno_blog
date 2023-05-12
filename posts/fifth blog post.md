@@ -4,7 +4,7 @@ publish_date: 2023-05-05
 disable_html_sanitization: true
 ---
 
-#  Creating !
+#  Creating my Net Art!
 
 I don't really know how to begin, so I browsed the internet for examples of star trails animation that others made with code. I found [this](https://youtu.be/_aBD7zjS9sc) on YouTube, which is pretty similar to what I have in mind. I did further research on it and found that this utilizes the [Noise](https://p5js.org/reference/#/p5/noise), so naturally I did another research on **Noise** function by watching (Skimming because it is assignment week and there's a lot of things to do) this tutorial [playlist](https://youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD) by The Coding Train.
 
