@@ -9,7 +9,7 @@ disable_html_sanitization: true
 I don't know how to begin, so I browsed the internet for examples of star trail animation that others made with code. I found [this](https://youtu.be/_aBD7zjS9sc) on YouTube, which is pretty similar to what I have in mind. I did further research on it and found that this utilizes the [Noise](https://p5js.org/reference/#/p5/noise), so naturally I did another research on the **Noise** function by watching (Skimming because it is assignment week and there are a lot of things to do) this tutorial [playlist](https://youtube.com/playlist?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD) by The Coding Train.
 
 Following the tutorials, I began to write my code, resulting in this:
-<iframe width="700" height="500" src="https://editor.p5js.org/Rivenrh/full/0OSddIlyY"></iframe>
+<iframe width="700" height="500" src="https://editor.p5js.org/Rivenrh/full/wzYTGX3-O"></iframe>
 
 I think that the concept of the **Noise** function is very interesting compared to the **Random** function because the **Noise** function creates something random, but not random at the same time. What I meant is that even though the particles appear from random locations, the particles appeared in a more naturally ordered succession compared to the pure **Random** function.
 
