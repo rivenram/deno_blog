@@ -1,127 +1,92 @@
 ---
-title: Fourth blog post!
+title: Fourth blog post! (1st post for assignment 2!)
 publish_date: 2023-04-28
 disable_html_sanitization: true
 ---
 
 #  Testing Interaction!
 
+Fourth blog post, and the 1st post of the 2nd assignment!. 
+In this 2nd assignment I have to create a "Net Art". My first thought was that this assignment is similar to the previous one, where I need to create something with Javascript or p5.js again, but this time I have more freedom in my creation (no more fixed canvas size).
+
+Looking at the brief, I thought that this assignment is indeed similar, with an additional Javascript concept which is Recursive function, and I have to apply sounds or interaction, or both!. I haven't started on it, but I had an idea in mind which is to create an interactive [star trails](https://en.wikipedia.org/wiki/Star_trail) animation with sounds.
+
+I decided to use p5.js again because I am already quite familiar with it, so I can save a bit of time in writing the code and honestly it is because the upcoming assignment weeks with the assignments having the highest mark for this semester. Since on the previous assignment I went full "funky" with the playful and colorful aesthetic, I wanted to have a "serious" art, creating something that I really like and can be proud of.
+
+Currently, I am researching on how to create the star trails in p5.js and looking at examples of interaction and recursion to get an idea or inspirations on how to make my star trails art interactive and what kind of interactivity can I apply to it. I found [these](https://youtu.be/62SbexSgQIw) [videos](https://youtu.be/17WoOqgXsRM) on YouTube which isn't exactly what I'm looking for, but watching their tutorials and explanation helped me to have more understanding on the process of creating the star trails.
+
+A Moire pattern I created by following the video.
+<iframe width="700" height="500" src="https://editor.p5js.org/Rivenrh/full/zUQFbWefHT"></iframe>
+
+About interactivity, maybe I can change the colour of the star trails on mouse click? Or maybe changing the direction? Explodes on click?
+The ideas are there, what's left is am I able to implement it correctly and in a way I wanted them to work. But for now, I'll do my research on them.
+
+Random interactive section!
 Type something and press enter!
 
 <div id=onkeypress_input></div>
 
 <script type=module>
 
-    // get and format div
     const div = document.getElementById (`onkeypress_input`)
     div.width = div.parentNode.scrollWidth
     div.style.height = `${ div.width * 9 / 32}px`
-    div.style.backgroundColor = `tomato`
+    div.style.backgroundColor = `skyblue`
     div.style.textAlign  = 'center'
     div.style.lineHeight = div.style.height
-    div.style.fontSize   = '36px'
+    div.style.fontSize   = '40px'
     div.style.fontWeight = 'bold'
     div.style.fontStyle  = 'italic'
     div.style.color      = 'white'
 
-    // array for the elements we will generate
     const free_elements = []
 
-    // call initial frame
     requestAnimationFrame (physics_engine)
 
-    // function to move the elements around
     function physics_engine () {
 
-        // iterate through the free_elements array
         free_elements.forEach (e => {
 
-            // if element is too far to the right
             if (e.offsetLeft > window.innerWidth) {
 
-                // respawn it on the left
                 e.style.left = `${ -e.offsetWidth }px`
             }
 
-            // add the elements velocity to its position
             e.style.left = `${ e.offsetLeft + e.x_vel }px`
         })
-        
-        // call next frame
+
         requestAnimationFrame (physics_engine)
     }
 
-    // function to generate elements
-    // accepts some text as an argument
-    // assigns it to the parameter 't'
     function set_free (t) {
 
-        // create a div element
         const free_div = document.createElement (`div`)
 
-        // assign the text that was passed in
-        // to the innerText property of the div
         free_div.innerText = t 
-
-        // format the div
         free_div.style.fontSize   = '36px'
         free_div.style.fontWeight = 'bold'
         free_div.style.fontStyle  = 'italic'
         free_div.style.color      = 'hotpink'
-
-        // setting .position to 'fixed' means
-        // the position is set against the viewport
-        // rather than the document
         free_div.style.position   = 'fixed'
 
-        // incorporate the div in the DOM
         document.body.append (free_div)
 
-        // .offsetHeight is the height of the div element
-        // multiplied by how many elements are already in
-        // the free_elements array
         const y_offset = free_div.offsetHeight * free_elements.length
 
-        // set the new element underneath the other elements
         free_div.style.top = `${ y_offset }px`
-
-        // .offsetWidth is the width of the div
-        // start the div to the left of the screen
         free_div.style.left = `${ -free_div.offsetWidth }px`
-
-        // we can add properties to the DOM objects
-        // simply assign to a new property
-        // and the value stays there!
-        // here we are storing a random x-velocity
         free_div.x_vel = Math.random () * 10
-
-        // add the div to the free_elements array
         free_elements.push (free_div)
     }
 
-    // the keypress listener exists on the document object
-    // we assign to it a function that accepts a keyboardEvent
-    // and assigns it to the parameter 'e'
     document.onkeypress = e => {
 
-        // the .key property of the keyboardEvent 
-        // contains what key was pressed
-        // if it was Enter
         if (e.key == 'Enter') {
-
-            // call the set_free function
-            // with the existing innerText
             set_free (div.innerText)
-
-            // clear the innerText
             div.innerText = ''
         }
 
-        // if it is not enter
         else {
-
-            // add that key to the
-            // existing innerText
             div.innerText += e.key
         }
     }
