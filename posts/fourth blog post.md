@@ -6,20 +6,20 @@ disable_html_sanitization: true
 
 #  Testing Interaction!
 
-Fourth blog post, and the 1st post of the 2nd assignment!. 
-In this 2nd assignment I have to create a "Net Art". My first thought was that this assignment is similar to the previous one, where I need to create something with Javascript or p5.js again, but this time I have more freedom in my creation (no more fixed canvas size).
+Fourth blog post, and the 1st post of the 2nd assignment! 
+In this 2nd assignment, I have to create a "Net Art". My first thought was that this assignment is similar to the previous one, where I need to create something with Javascript or p5.js again, but this time I have more freedom in my creation (no more fixed canvas size).
 
-Looking at the brief, I thought that this assignment is indeed similar, with an additional Javascript concept which is Recursive function, and I have to apply sounds or interaction, or both!. I haven't started on it, but I had an idea in mind which is to create an interactive [star trails](https://en.wikipedia.org/wiki/Star_trail) animation with sounds.
+Looking at the brief, I thought that this assignment is indeed similar, with an additional Javascript concept which is a Recursive function, and I have to apply sounds or interaction, or both! I haven't started on it, but I had an idea in mind which is to create an interactive [star trails](https://en.wikipedia.org/wiki/Star_trail) animation with sounds.
 
-I decided to use p5.js again because I am already quite familiar with it, so I can save a bit of time in writing the code and honestly it is because the upcoming assignment weeks with the assignments having the highest mark for this semester. Since on the previous assignment I went full "funky" with the playful and colorful aesthetic, I wanted to have a "serious" art, creating something that I really like and can be proud of.
+I decided to use p5.js again because I am already quite familiar with it, so I can save a bit of time in writing the code and honestly it is because of the upcoming assignment weeks with the assignments having the highest mark for this semester. Since on the previous assignment, I went full "funky" with the playful and colorful aesthetic, I wanted to create a "serious" art, creating something that I like and can be proud of.
 
-Currently, I am researching on how to create the star trails in p5.js and looking at examples of interaction and recursion to get an idea or inspirations on how to make my star trails art interactive and what kind of interactivity can I apply to it. I found [these](https://youtu.be/62SbexSgQIw) [videos](https://youtu.be/17WoOqgXsRM) on YouTube which isn't exactly what I'm looking for, but watching their tutorials and explanation helped me to have more understanding on the process of creating the star trails.
+Currently, I am researching how to create the star trails in p5.js and looking at examples of interaction and recursion to get an idea or inspiration on how to make my star trails art interactive and what kind of interactivity can I apply to it. I found [these](https://youtu.be/62SbexSgQIw) [videos](https://youtu.be/17WoOqgXsRM) on YouTube which isn't exactly what I'm looking for, but watching their tutorials and explanation helped me to have more understanding of the process of creating the star trails.
 
 A Moire pattern I created by following the video.
 <iframe width="700" height="500" src="https://editor.p5js.org/Rivenrh/full/zUQFbWefHT"></iframe>
 
-About interactivity, maybe I can change the colour of the star trails on mouse click? Or maybe changing the direction? Explodes on click?
-The ideas are there, what's left is am I able to implement it correctly and in a way I wanted them to work. But for now, I'll do my research on them.
+About interactivity, maybe I can change the colour of the star trails with a mouse click? Or maybe changing the direction? Explodes on click?
+The ideas are there, what's left is am I able to implement them correctly and in the way I wanted them to work. But for now, I'll do my research on them.
 
 Random interactive section!
 Type something and press enter!
