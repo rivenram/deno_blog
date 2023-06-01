@@ -41,6 +41,8 @@ Now, I need to do more research on these 2 ideas before finally deciding on whic
 
 Ultimately, I decided to do the Yugioh Life Points calculator. Because as I did my research on both programs, I found that the simple calculator was simpler and easier to do. Time is another factor as it's the final weeks of the semester, and I have 2 other major assignments due on on the same week.
 
+I also believe that a 4 minute video of me just typing into a chatbox isn't as interesting as the calculator. Especially since the calculator is actually interesting as it can be utilized for my hobby.
+
 ![Duel](images/duelstart.jpg)
 
 *Fun Fact: While the official rule states that both player starts with 8000 Life Points, the TV show always uses 4000. This is to shorten the duration of the game, saving time and so that it fits in the 25 minutes mark (Standard duration of an Anime episode).

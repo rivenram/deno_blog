@@ -12,6 +12,8 @@ I've realized that doing the calculator also has a better CoP compared to the on
 - Repertoire = Playing card games (Yugioh), hanging out
 - Values = Me & the boys just chilling, hanging out, and relaxing at end of the week.
 
+---
+
 ##  Coding the calculator.
  
 Following [video](https://youtu.be/QS6Y0ezhyCs) [tutorials](https://youtu.be/Exo7zmvRePs) on YouTube, I decided to use the design from the 2nd video tutorials.
@@ -23,7 +25,10 @@ Uploaded it on to [Github](https://rivenram.github.io/mycelial/), so the calcula
 Then I send the link to my friends so they can test it on their screen & to make sure that it's live.
 ![bisaga](images/bisaga.JPG)
 
-"Does it work"
-"Yes. It works on phone too"
-"Ok thanks"
+'Does it work?'
+'Yes. It works on phone too'.
+'Ok thanks!'
 
+To think that I created an interesting tool that is beneficial for me and others are fascinating. Especially since it is related to my hobby, which got me fired up in doing the assignment.
+
+Next step = filming the video.
