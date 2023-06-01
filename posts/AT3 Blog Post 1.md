@@ -25,7 +25,7 @@ Why a calculator?
 One of my hobbies are playing TCG (Trading Card Games) such as Yugioh, Magic the Gathering, Pokemon, etc.
 The idea came to me when I was playing Yugioh with my friends during our weekly casual card game night.
 So basically in order to win in Yugioh, you need to deal 8000 damage to your opponents Life Points. The thing is, it is very annoying and tedious to track the current state of both players Life Points. Usually we just use a pencil and a piece of paper, then we do the maths ourselves. This hinders our game since instead of completely focusing on the game, we have to try to remember or keep track of our Life Points.
-![bewd](images/bewd.png) ![darkmagician](images/darkmagi.png) ![yugioh](images/cardback.jpg)
+![bewd](images/bewd.png) ![yugioh](images/cardback.jpg)
 
 Now, I need to do more research on these 2 ideas before finally deciding on which idea to do.
 
