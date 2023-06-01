@@ -21,7 +21,7 @@ For the calculator design itself, I went for the simple, minimalist look so it w
 Uploaded it on to [Github](https://rivenram.github.io/mycelial/), so the calculator is live on the internet and others can use it as well. 
 
 Then I send the link to my friends so they can test it on their screen & to make sure that it's live.
-![bisaga](images/bisaga.jpg)
+![bisaga](images/bisaga.JPG)
 
 "Does it work"
 "Yes. It works on phone too"
